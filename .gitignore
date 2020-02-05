@@ -1,0 +1,4 @@
+.env
+.docker/nginx/conf.d/log/access.log
+.docker/nginx/conf.d/log/error.log
+.docker/redisdata/dump.rdb
