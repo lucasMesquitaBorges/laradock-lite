@@ -21,7 +21,9 @@ RUN apk update && apk add --no-cache \
     php7-dom \
     php7-session \
     php7-zlib \
-    composer
+    composer \
+    git \
+    bash
 
 # Set working directory
 WORKDIR /var/www/html
